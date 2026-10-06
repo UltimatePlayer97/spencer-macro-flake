@@ -3,7 +3,7 @@
 # example installation:
 
 add the flake to your flake.nix:
-```
+```nix
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -29,7 +29,7 @@ add the flake to your flake.nix:
 ``security.polkit.enablePkexecWrapper = true;``
 
 add the smu service to your configuration.nix:
-```
+```nix
 { ... }:
 
 {
